@@ -1,0 +1,47 @@
+@font-face {
+  font-family: "HeliosCond";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("../fonts/HeliosCond.woff2") format("woff2"), url("../fonts/HeliosCond.woff") format("woff"), url("../fonts/HeliosCond.ttf") format("truetype");
+}
+/*===== variables =====*/
+:root {
+  --color-dark: #252525;
+  --color-black: #000;
+  --color-whith: #fff;
+  --color-yellow: #fc0;
+}
+
+/*===== main styles =====*/
+html {
+  box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--color-dark);
+}
+
+body.lock {
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  outline: none;
+}
