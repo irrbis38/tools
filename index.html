@@ -34,24 +34,28 @@
               <a href="#" class="menu__link">Доставка</a>
               <a href="#" class="menu__link">Оплата</a>
               <a href="#" class="menu__link">О нас</a>
-              <div class="menu__link menu__more">
+              <div class="menu__more">
                 <span>Ещё</span>
                 <img src="./assets/icons/arrow.svg" alt="" />
-                <div class="menu__dropdown">
-                  <a href="#" class="dropdown__link">Каталог инструментов</a>
-                  <a href="#" class="dropdown__link">Все для сада</a>
-                  <a href="#" class="dropdown__link">Ручной интрумент</a>
-                  <a href="#" class="dropdown__link">Электрика</a>
-                  <a href="#" class="dropdown__link">Доставка</a>
-                  <a href="#" class="dropdown__link">Оплата</a>
-                  <a href="#" class="dropdown__link">О нас</a>
-                </div>
+              </div>
+              <div class="header__overlay"></div>
+              <div class="menu__dropdown">
+                <a href="#" class="dropdown__link">Каталог инструментов</a>
+                <a href="#" class="dropdown__link">Все для сада</a>
+                <a href="#" class="dropdown__link">Ручной интрумент</a>
+                <a href="#" class="dropdown__link">Электрика</a>
+                <a href="#" class="dropdown__link">Доставка</a>
+                <a href="#" class="dropdown__link">Оплата</a>
+                <a href="#" class="dropdown__link">О нас</a>
+              </div>
+              <div class="menu__burger">
+                <span></span>
               </div>
             </nav>
             <div class="menu__login">
-              <a href="#" class="menu__link">Вход</a>
+              <a href="#" class="login__link">Вход</a>
               <span></span>
-              <a href="#" class="menu__link">Регистрация</a>
+              <a href="#" class="login__link">Регистрация</a>
             </div>
           </div>
           <div class="header__description">
@@ -165,6 +169,14 @@
           <div class="navbar__search">
             <img src="./assets/icons/search.svg" alt="поиск" />
           </div>
+          <div class="search__field">
+            <input
+              type="search"
+              class="search__input"
+              placeholder="Начните поиск"
+            />
+            <button class="search__button">Поиск</button>
+          </div>
           <ul class="navbar__items">
             <li class="navbar__item active">
               <p>Перфораторы</p>
@@ -194,10 +206,125 @@
               <p>Акксесуары</p>
               <a href="#"></a>
             </li>
+            <li class="navbar__more">
+              <?xml version="1.0" ?><svg
+                fill="none"
+                height="24"
+                viewBox="0 0 24 24"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  cx="4"
+                  cy="4"
+                  r="1"
+                  stroke="white"
+                  stroke-width="2"
+                  transform="rotate(90 4 4)"
+                />
+                <circle
+                  cx="12"
+                  cy="4"
+                  r="1"
+                  stroke="white"
+                  stroke-width="2"
+                  transform="rotate(90 12 4)"
+                />
+                <circle
+                  cx="20"
+                  cy="4"
+                  r="1"
+                  stroke="white"
+                  stroke-width="2"
+                  transform="rotate(90 20 4)"
+                />
+                <circle
+                  cx="4"
+                  cy="12"
+                  r="1"
+                  stroke="white"
+                  stroke-width="2"
+                  transform="rotate(90 4 12)"
+                />
+                <circle
+                  cx="12"
+                  cy="12"
+                  r="1"
+                  stroke="white"
+                  stroke-width="2"
+                  transform="rotate(90 12 12)"
+                />
+                <circle
+                  cx="20"
+                  cy="12"
+                  r="1"
+                  stroke="white"
+                  stroke-width="2"
+                  transform="rotate(90 20 12)"
+                />
+                <circle
+                  cx="4"
+                  cy="20"
+                  r="1"
+                  stroke="white"
+                  stroke-width="2"
+                  transform="rotate(90 4 20)"
+                />
+                <circle
+                  cx="12"
+                  cy="20"
+                  r="1"
+                  stroke="white"
+                  stroke-width="2"
+                  transform="rotate(90 12 20)"
+                />
+                <circle
+                  cx="20"
+                  cy="20"
+                  r="1"
+                  stroke="white"
+                  stroke-width="2"
+                  transform="rotate(90 20 20)"
+                />
+              </svg>
+            </li>
           </ul>
+          <div class="navbar__dropdown">
+            <ul class="navbar__dropdownItems">
+              <li class="navbar__dropdownItem">
+                <p>Перфораторы</p>
+                <a href="#"></a>
+              </li>
+              <li class="navbar__dropdownItem">
+                <p>Дрели</p>
+                <a href="#"></a>
+              </li>
+              <li class="navbar__dropdownItem">
+                <p>Шлифмашины</p>
+                <a href="#"></a>
+              </li>
+              <li class="navbar__dropdownItem">
+                <p>Пистолеты</p>
+                <a href="#"></a>
+              </li>
+              <li class="navbar__dropdownItem">
+                <p>Электропилы</p>
+                <a href="#"></a>
+              </li>
+              <li class="navbar__dropdownItem">
+                <p>Наборы инструментов</p>
+                <a href="#"></a>
+              </li>
+              <li class="navbar__dropdownItem">
+                <p>Акксесуары</p>
+                <a href="#"></a>
+              </li>
+            </ul>
+          </div>
           <div class="navbar__sale">Распродажа</div>
         </div>
       </div>
     </header>
+    <script src="./main.js"></script>
   </body>
 </html>
